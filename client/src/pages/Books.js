@@ -5,6 +5,7 @@ import API from "../utils/API";
 import { Col, Row, Container } from "../components/Grid";
 import { List, ListItem } from "../components/List";
 import { Input, TextArea, FormBtn } from "../components/Form";
+import { Link } from "react-router-dom";
 
 function Books() {
   // Setting our component's initial state
@@ -25,7 +26,32 @@ function Books() {
       .catch(err => console.log(err));
   };
 
+  // Handle update state when someone types in search field
+  function handleInputChange(event) {
+    const { name, value } = event.target;
+    setFormObject({ ...formObject, [name] : value})
+  };
+  
+  // When the form is sent, calls API.saveBooks to save and reload
+  function handleFormSubmit(event) {
+    event.preventDefault();
+    if (formObject.title && formObject.author) {
+      API.saveBook({
+        title: formObject.title,
+        author: formObject.author,
+        description: formObject.description
+      })
+      .then(res => loadBooks())
+      .catch(err => console.log(err));
+    }
+  };
 
+  function deleteBook(id) {
+    API.deleteBook(id)
+    .then(res => loadBooks())
+    .catch(err => console.log(err));
+    
+  };
     return (
       <Container fluid>
         <Row>
@@ -33,34 +59,9 @@ function Books() {
             <Jumbotron>
               <h1>What Books Should I Read?</h1>
             </Jumbotron>
-            <form>
-              <Input
-                onChange={() => {}}
-                name="title"
-                placeholder="Title (required)"
-              />
-              <Input
-                onChange={() => {}}
-                name="author"
-                placeholder="Author (required)"
-              />
-              <TextArea
-                onChange={() => {}}
-                name="synopsis"
-                placeholder="Synopsis (Optional)"
-              />
-              <FormBtn
-                disabled={!(formObject.author && formObject.title)}
-                onClick={() => {}}
-              >
-                Submit Book
-              </FormBtn>
-            </form>
           </Col>
+          
           <Col size="md-6 sm-12">
-            <Jumbotron>
-              <h1>Books On My List</h1>
-            </Jumbotron>
             {books.length ? (
               <List>
                 {books.map(book => {
@@ -71,7 +72,7 @@ function Books() {
                           {book.title} by {book.author}
                         </strong>
                       </a>
-                      <DeleteBtn onClick={() =>{}} />
+                      <DeleteBtn onClick={() => deleteBook(book._id)} />
                     </ListItem>
                   );
                 })}
