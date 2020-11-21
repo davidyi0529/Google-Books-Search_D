@@ -6,6 +6,9 @@ export function DataSearch(props){
     function favoriteBooks(event) {
         let authors = event.author;
 
+        //this is to push the books to favorites.
+        authors.forEach((author) => authors.push(author));
+
         API.saveBook({
             title: event.title,
             authors: event.authors[0],
