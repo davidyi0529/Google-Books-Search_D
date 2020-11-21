@@ -6,7 +6,7 @@ const API = {
     return axios.get('https://www.googleapis.com/books/v1/volumes?q=' + book)
   },
   // Gets all books
-  getBooks: function() {
+  getDbBook: function() {
     return axios.get("/api/books");
   },
   // Gets the book with the given id
