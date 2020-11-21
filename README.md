@@ -25,6 +25,7 @@ DESCRIPTION INSERT
 ## Table of Contents
 
 - [Installation](#installation)
+- [Process](#process)
 - [Technologies](#technologies)
 - [Credits](#credits)
 - [Authors](#authors)
@@ -55,6 +56,72 @@ npm start
 ```
 
 ---
+
+
+## Process
+
+### Create A React App
+
+o create a react app, open an integrated terminal and run the following code.
+
+```bash
+npx create-react-app appName
+```
+
+
+### App Js
+
+The App.js will hold all the programs pages and serves as a router between them.
+
+```js
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
+```
+
+*pathing can be created using the below code*
+
+```js
+<Switch>
+    <Route exact path="/">
+        <Home />
+    </Route>
+    <Route exact path="/pathname">
+    <PageName>
+    </Route>
+    ...
+</Switch>
+```
+
+### Major Components
+
+The core compononents for the operation of this app include the search form, results, and saved components.
+
+1. Search Form
+
+The Search Form consists of an input tag and a button tag. Within the input tag, the program should call for an onChange. The method called when the user changes the input is the props.handleFormSubmit which is defined within the search page.
+
+The button tag calls for an onClick. When the button is clicked, a searchBooks method is called which is also defined within the search page.
+
+2. Results
+
+The Results component will spit out all the matching results, if any.
+
+*the below image shows the code for this*
+
+![code from results](https://ibb.co/6PQ8J7x)
+
+
+3. Saved 
+
+This component returns the JSX formatting for the saved page. It displays all the saved books by passing in books as a parameter. A button is also appended for an onClick delete book. The delete function is defined within the saved books page.
+
+### Pages
+
+
+
+### Models
+
+In order to create a database this program utilized mongoose to create a schema. The schema should call for a title, authors, description, date, image, link, and id.
+
 
 ## Technologies
 
