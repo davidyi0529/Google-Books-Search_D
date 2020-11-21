@@ -14,6 +14,7 @@ function Books() {
 
   // Load all books and store them with setBooks
   useEffect(() => {
+    console.log(books);
     loadBooks()
   }, [])
 
@@ -86,11 +87,11 @@ function Books() {
                 {books.map(book => {
                   return (
                     <ListItem key={book._id}>
-                      <a href={"/books/" + book._id}>
+                      <Link to={"/books/" + book._id}>
                         <strong>
                           {book.title} by {book.author}
                         </strong>
-                      </a>
+                      </Link>
                       <DeleteBtn onClick={() => deleteBook(book._id)} />
                     </ListItem>
                   );
