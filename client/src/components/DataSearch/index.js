@@ -37,3 +37,5 @@ export function DataSearch(props){
     )
 
 }
+
+export default DataSearch;
