@@ -20,6 +20,10 @@ const API = {
   // Saves a book to the database
   addBook: function(bookData) {
     return axios.post("/api/books", bookData);
+  },
+//google api itself
+  findBooks: function(book) {
+    return axios.get("https://www.googleapis.com/books/v1/volumes?q=" + book)
   }
 };
 
