@@ -16,7 +16,7 @@ return (
                 <div className="col-lg-4 bookImage">
                     {book.volumeInfo.imageLinks ? (
                         <img
-                            className="img-fluid mx-5"
+                            className="img-fluid"
                             src={book.volumeInfo.imageLinks.thumbnail}
                             alt={book.volumeInfo.title}
                         />

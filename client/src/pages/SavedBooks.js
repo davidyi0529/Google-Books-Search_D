@@ -3,7 +3,6 @@ import Nav from "../components/Nav";
 import Jumbotron from "../components/Jumbotron";
 import API from "../utils/API";
 import Saved from "../components/Saved";
-import Footer from "../components/Footer";
 
 function SavedBooks() {
     const [books, setBooks] = useState([]);
@@ -34,7 +33,6 @@ function SavedBooks() {
                 <Saved
                     books={books}
                     deleteBooks={deleteBooks} />
-                <Footer />
             </React.Fragment>
         </div>
     );

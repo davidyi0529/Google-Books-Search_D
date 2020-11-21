@@ -6,10 +6,10 @@ function Saved({ books, deleteBooks }) {
     books.map(book => {
       return (
         <div key={book.id} className="container">
-          <div className="card bg-warning">
+          <div className="card">
             <div className="row mb-4 mt-3">
               <div className="col-lg-4 bookImage">
-                {book.image ? <img src={book.image} alt="title" className="img-fluid mx-5" />
+                {book.image ? <img src={book.image} alt="title" className="img-fluid" />
                   : <img src="https://via.placeholder.com/140x100" alt="title" className="img-fluid" />}
               </div>
               <div className="col-lg-8 savedContent">
