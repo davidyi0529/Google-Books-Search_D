@@ -39,7 +39,7 @@ function Books() {
                 name="title"
                 placeholder="Title (required)"
               />
-              <Input
+              {/* <Input
                 onChange={() => {}}
                 name="author"
                 placeholder="Author (required)"
@@ -48,9 +48,9 @@ function Books() {
                 onChange={() => {}}
                 name="synopsis"
                 placeholder="Synopsis (Optional)"
-              />
+              /> */}
               <FormBtn
-                disabled={!(formObject.author && formObject.title)}
+                disabled={(formObject.author)}
                 onClick={() => {}}
               >
                 Submit Book
