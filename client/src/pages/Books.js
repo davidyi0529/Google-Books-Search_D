@@ -59,6 +59,25 @@ function Books() {
             <Jumbotron>
               <h1>What Books Should I Read?</h1>
             </Jumbotron>
+              <Input 
+                onChange={handleInputChange}
+                name="title"
+                placeholder="Book Title"
+              />
+              <Input
+                onChange={handleInputChange}
+                name="author"
+                placeholder="Author name(s)"
+                />
+              <TextArea
+                onChange={handleInputChange}
+                name="description"
+                placeholder="description..."
+              />
+              <FormBtn
+                disabled={!formObject.title || !formObject.author}
+                onClick={handleFormSubmit}
+              />
           </Col>
           
           <Col size="md-6 sm-12">
