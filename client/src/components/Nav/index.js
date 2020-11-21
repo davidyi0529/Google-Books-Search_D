@@ -5,7 +5,7 @@ import "./style.css";
 function Nav() {
     return (
         <header>
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+            <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
                 <h1 className="p-2 mb-2 ml-3">
                     <a className="navbar-brand pl-3 px-1" href="/">Google Books
                     </a>
