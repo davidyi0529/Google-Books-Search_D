@@ -116,7 +116,9 @@ This component returns the JSX formatting for the saved page. It displays all th
 
 ### Pages
 
+1. SavedBooks.js
 
+This page implements the Saved component mentioned earlier. By setting useState to books. The books will be set
 
 ### Models
 
