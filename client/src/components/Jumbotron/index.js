@@ -3,7 +3,7 @@ import "./style.css"
 
 function Jumbotron() {
   return (
-    <div className="jumbotron jumbotron-fluid bg-secondary text-white">
+    <div className="jumbotron jumbotron-fluid text-white">
       <div className="container">
         <h1  className="display-4 text-center mt-5 mb-3">Google Books Search</h1>
         {/* <img className="" src="" alt=""/> */}

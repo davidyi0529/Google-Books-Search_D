@@ -4,6 +4,7 @@ import SearchForm from "../components/SearchForm"
 import Results from "../components/Results"
 import API from '../utils/API'
 import Jumbotron from "../components/Jumbotron";
+import Footer from "../components/Footer"
 import "./style.css";
 
 function SearchBooks() {
@@ -77,6 +78,7 @@ function SearchBooks() {
                 data={books}
                 saveBook={saveBook}
             />
+            <Footer />
         </div>
     );
 };
