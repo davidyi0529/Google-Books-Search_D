@@ -20,10 +20,9 @@ Google Books Search is an application created using the MERN stack and allows us
 
 ### Screenshots of application:
 
-<!-- <img src="https://github.com/davidyi0529/Portfolio_D/blob/main/public/Images/landingpage.png?raw=true" width="800" height="600">
-<img src="https://github.com/davidyi0529/Portfolio_D/blob/main/public/Images/aboutme.png?raw=true" width="800" height="600">
-<img src="https://github.com/davidyi0529/Portfolio_D/blob/main/public/Images/Projectpage.png?raw=true" width="800" height="600">
-<img src="https://github.com/davidyi0529/Portfolio_D/blob/main/public/Images/contactandfooter.png?raw=true" width="800" height="600"> -->
+<img src="" width="800" height="600">
+<img src="" width="800" height="600">
+[<img src="" width="800" height="600">]()
 
 ---
 
@@ -45,7 +44,7 @@ Google Books Search is an application created using the MERN stack and allows us
 1. To run the application locally, first clone this repository with the following command.
 
 ```bash
-#  git clone https://github.com/davidyi0529/Portfolio_D.git
+git clone https://github.com/DCuadra85/mernhomework.git
 ```
 
 2. Next, install the application dependencies inside the directory.
@@ -65,16 +64,18 @@ npm start
 
 ## Process
 
-### Create A React App
+<br />
+
+`Create A React App`
 
 o create a react app, open an integrated terminal and run the following code.
 
 ```bash
 npx create-react-app appName
 ```
+<br />
 
-
-### App Js
+`App Js`
 
 The App.js will hold all the programs pages and serves as a router between them.
 
@@ -95,8 +96,9 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
     ...
 </Switch>
 ```
+<br />
 
-### Major Components
+`Major Components`
 
 The core compononents for the operation of this app include the search form, results, and saved components.
 
@@ -119,7 +121,9 @@ The Results component will spit out all the matching results, if any.
 
 This component returns the JSX formatting for the saved page. It displays all the saved books by passing in books as a parameter. A button is also appended for an onClick delete book. The delete function is defined within the saved books page.
 
-### Pages
+<br />
+
+`Pages`
 
 1. SavedBooks.js
 
@@ -138,11 +142,13 @@ This page implements the Saved component mentioned earlier. By setting useState 
             })
     };
 ```
+<br />
 
-### Models
+`Models`
 
 In order to create a database this program utilized mongoose to create a schema. The schema should call for a title, authors, description, date, image, link, and id.
 
+<br />
 
 ## Technologies
 
@@ -156,6 +162,8 @@ The following were used for this project.
 - `Javascript`
 - `HTML5`
 - `CSS`
+
+<br />
 
 ---
 
@@ -188,11 +196,11 @@ The following were used for this project.
 <td align="center">
 <h2>Daniel Cuadra</h2>
 
-[![Portfolio](https://img.shields.io/badge/portfolio-8B89CC?&style=for-the-badge)]("")
+[![Portfolio](https://img.shields.io/badge/portfolio-8B89CC?&style=for-the-badge)]("https://dcuadra85.github.io/my-portfolio/")
 <br />
-[![GitHub](https://img.shields.io/badge/github-%23100000.svg?&style=for-the-badge&logo=github&logoColor=white)]("")
+[![GitHub](https://img.shields.io/badge/github-%23100000.svg?&style=for-the-badge&logo=github&logoColor=white)]("https://github.com/DCuadra85")
 <br />
-[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)]("")
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)]("https://www.linkedin.com/in/daniel-cuadra-3705aa39/")
 </td>
 
 <td align="center">
@@ -200,9 +208,9 @@ The following were used for this project.
 
 [![Portfolio](https://img.shields.io/badge/portfolio-8B89CC?&style=for-the-badge)]("")
 <br />
-[![GitHub](https://img.shields.io/badge/github-%23100000.svg?&style=for-the-badge&logo=github&logoColor=white)]("")
+[![GitHub](https://img.shields.io/badge/github-%23100000.svg?&style=for-the-badge&logo=github&logoColor=white)]("https://github.com/brianjunhyuplee")
 <br />
-[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)]("")
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)]("https://www.linkedin.com/in/brian-lee-559208187/")
 </td>
 
 <td align="center">
@@ -210,7 +218,7 @@ The following were used for this project.
 
 [![Portfolio](https://img.shields.io/badge/portfolio-8B89CC?&style=for-the-badge)]("")
 <br />
-[![GitHub](https://img.shields.io/badge/github-%23100000.svg?&style=for-the-badge&logo=github&logoColor=white)]("")
+[![GitHub](https://img.shields.io/badge/github-%23100000.svg?&style=for-the-badge&logo=github&logoColor=white)]("https://github.com/romerojefry")
 <br />
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)]("")
 </td>
