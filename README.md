@@ -10,7 +10,7 @@
 - https://github.com/davidyi0529/Google-Books-Search_D
 
 ### Link to Deployed App
-- https://mernstackhmw.herokuapp.com/
+- https://google-books-search-d.herokuapp.com/
 
 </br>
 
