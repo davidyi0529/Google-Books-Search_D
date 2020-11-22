@@ -20,9 +20,11 @@ Google Books Search is an application created using the MERN stack and allows us
 
 ### Screenshots of application:
 
-<img src="" width="800" height="600">
-<img src="" width="800" height="600">
-[<img src="" width="800" height="600">]()
+<img src="https://github.com/DCuadra85/mernhomework/blob/david2/client/public/img/Searchpage.png?raw=true" width="800" height="600">
+
+<img src="https://github.com/DCuadra85/mernhomework/blob/david2/client/public/img/Savedpage.png?raw=true" width="800" height="600">
+
+[<img src="https://github.com/DCuadra85/mernhomework/blob/david2/client/public/img/demo.png?raw=true" width="800" height="600">](https://youtu.be/hh5PBdh7srM)
 
 ---
 
