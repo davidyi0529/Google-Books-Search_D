@@ -4,7 +4,7 @@ import "./style.css";
 function Footer() {
     return (
         <div className="navbar navbar-light justify-content-center bg-success fixed-bottom">
-            <div className=" text-white">@MIT 2020 Daniel, david, Brian, Jefry</div>
+            <div className=" text-white">&copy; Copyright 2020. All rights reserved. Powered by Daniel, David, Brian, Jefry</div>
         </div>
     );
 };

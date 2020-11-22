@@ -4,15 +4,19 @@
 <br />
 ![Last Commit](https://img.shields.io/github/last-commit/DCuadra85/mernhomework)
 
+</br>
+
 ### Link to the App Repo 
-- 
+- https://github.com/DCuadra85/mernhomework
 
 ### Link to Deployed App
-- 
+- https://mernstackhmw.herokuapp.com/
 
+</br>
 
-DESCRIPTION INSERT
+Google Books Search is an application created using the MERN stack and allows users to search for books via the Google Books API. Search results are dynamically rendered in the UI and users have the option to save and/or delete books.
 
+</br>
 ### Screenshots of application:
 
 <!-- <img src="https://github.com/davidyi0529/Portfolio_D/blob/main/public/Images/landingpage.png?raw=true" width="800" height="600">
