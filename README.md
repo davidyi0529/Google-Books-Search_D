@@ -75,6 +75,7 @@ o create a react app, open an integrated terminal and run the following code.
 ```bash
 npx create-react-app appName
 ```
+
 <br />
 
 `App Js`
@@ -98,9 +99,11 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
     ...
 </Switch>
 ```
+
 <br />
 
 `Major Components`
+
 
 The core compononents for the operation of this app include the search form, results, and saved components.
 
@@ -123,9 +126,11 @@ The Results component will spit out all the matching results, if any.
 
 This component returns the JSX formatting for the saved page. It displays all the saved books by passing in books as a parameter. A button is also appended for an onClick delete book. The delete function is defined within the saved books page.
 
+
 <br />
 
 `Pages`
+
 
 1. SavedBooks.js
 
@@ -144,6 +149,7 @@ This page implements the Saved component mentioned earlier. By setting useState 
             })
     };
 ```
+
 <br />
 
 `Models`
@@ -151,6 +157,7 @@ This page implements the Saved component mentioned earlier. By setting useState 
 In order to create a database this program utilized mongoose to create a schema. The schema should call for a title, authors, description, date, image, link, and id.
 
 <br />
+
 
 ## Technologies
 
