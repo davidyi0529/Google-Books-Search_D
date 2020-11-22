@@ -20,11 +20,11 @@ Google-Books-Search_D is an application created using the MERN stack and allows 
 
 ### Screenshots of application:
 
-<img src="https://github.com/DCuadra85/mernhomework/blob/david2/client/public/img/Searchpage.png?raw=true" width="800" height="600">
+<img src="https://github.com/davidyi0529/Google-Books-Search_D/blob/main/client/public/img/Searchpage.png?raw=true" width="800" height="600">
 
-<img src="https://github.com/DCuadra85/mernhomework/blob/david2/client/public/img/Savedpage.png?raw=true" width="800" height="600">
+<img src="https://github.com/davidyi0529/Google-Books-Search_D/blob/main/client/public/img/Savedpage.png?raw=true" width="800" height="600">
 
-[<img src="https://github.com/DCuadra85/mernhomework/blob/david2/client/public/img/demo.png?raw=true" width="800" height="600">](https://youtu.be/hh5PBdh7srM)
+[<img src="https://github.com/davidyi0529/Google-Books-Search_D/blob/main/client/public/img/demo.png?raw=true" width="800" height="600">](https://youtu.be/hh5PBdh7srM)
 
 ---
 
